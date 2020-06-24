@@ -1,0 +1,10 @@
+name: my_r_env
+channels:
+ - defaults
+dependencies:
+ - r-glmnet
+ - r-carrier
+ - r-base
+ - r-mlflow
+ - python=3.7.5
+ - pymysql
