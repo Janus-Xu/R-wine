@@ -1,0 +1,7 @@
+name: r_example
+conda_env: conda.yaml
+entry_points:
+  main:
+    parameters:
+      r-b: {type: int, default: 1}
+    command: "Rscript r_wine_train.R {r-b}"
