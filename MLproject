@@ -1,4 +1,4 @@
-name: r_example
+name: r_example_
 conda_env: conda.yaml
 entry_points:
   main:
